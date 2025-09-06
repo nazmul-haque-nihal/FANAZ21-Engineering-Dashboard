@@ -140,11 +140,10 @@ Contact
 
 For questions, suggestions, or collaboration opportunities, please contact: 
 
-     Your Name
-     your.email@example.com 
-     Your LinkedIn Profile 
-     Your GitHub Profile 
-     
+     Nazmul Haque
+     nazmulhaquegreen@gmail.com 
+     https://www.linkedin.com/in/nazmul-haque-nihal-07-55b87a248/ 
+          
 
 Roadmap 
 
