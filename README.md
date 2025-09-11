@@ -45,7 +45,23 @@ A comprehensive engineering analysis dashboard built with Dash, Plotly, and Boot
 - **Visualization**: Plotly Graph Objects, Plotly Express
 
 
-##Configuration 
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/nazmul-haque-nihal/FANAZ21-Engineering-Dashboard.git
+cd FANAZ21-Engineering-Dashboard
+
+Project Structure
+FANAZ21-Engineering-Dashboard/
+├── app.py                 # Main application file
+├── requirements.txt       # Python dependencies
+├── README.md             # This file
+└── assets/               # Images and other static assets (if any)
+```
+
+
+## Configuration 
 
 The application can be configured through the sidebar controls: 
 
@@ -54,7 +70,7 @@ The application can be configured through the sidebar controls:
      Project Type: Select the engineering discipline for specialized analysis
      
 
-Data Formats 
+## Data Formats 
 Supported Upload Formats 
 
      CSV: Comma-separated values
@@ -63,22 +79,21 @@ Supported Upload Formats
      TXT: Tab-delimited text files
      
 
-Manual Input Format 
+## Manual Input Format 
 
 Data can be entered manually using comma-separated or tab-delimited format: 
  
  
- 
-1
-2
-3
-1.0, 2.5, 3.7
-2.1, 3.2, 4.8
-3.2, 4.1, 5.9
- 
+ 1
+ 2
+ 3
+ 1.0, 2.5, 3.7
+ 2.1, 3.2, 4.8
+ 3.2, 4.1, 5.9
  
  
-API Reference 
+ 
+## API Reference 
 Callback Structure 
 
 The application follows a modular callback structure: 
@@ -91,7 +106,7 @@ The application follows a modular callback structure:
      Data Management Callbacks: Handle file uploads, data processing, and exports
      
 
-Key Functions 
+## Key Functions 
 
      update_dashboard(): Updates the main dashboard with real-time data
      update_signal_graph(): Generates signal visualizations based on parameters
@@ -102,41 +117,43 @@ Key Functions
      update_freq_analysis(): Executes frequency domain analysis
      
 
-Contributing 
+## Contributing 
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change. 
 Development Guidelines 
 
-     Follow the existing code style and structure
-     Add appropriate comments and documentation
-     Ensure all callbacks are properly tested
-     Update the README as needed
+1. Follow the existing code style and structure
+2. Add appropriate comments and documentation
+3. Ensure all callbacks are properly tested
+4. Update the README as needed
      
 
-Bug Reports 
+## Bug Reports 
 
 When reporting bugs, please include: 
 
-     A clear and descriptive title
-     Steps to reproduce the issue
-     Expected behavior
-     Actual behavior
-     Screenshots if applicable
-     Your environment details (OS, Python version, etc.)
+1. A clear and descriptive title
+2  Steps to reproduce the issue
+3. Expected behavior
+4. Actual behavior
+5. Screenshots if applicable
+6. Your environment details (OS, Python version, etc.)
      
 
-License 
+## License 
 
 This project is licensed under the MIT License - see the LICENSE  file for details. 
-Acknowledgments 
 
-     The Dash team for creating an excellent framework for building analytical web applications
-     Plotly for powerful visualization capabilities
-     The scientific Python community (NumPy, SciPy, Pandas) for robust data processing tools
-     Bootstrap for responsive UI components
+
+## Acknowledgments 
+
+The Dash team for creating an excellent framework for building analytical web applications
+Plotly for powerful visualization capabilities
+The scientific Python community (NumPy, SciPy, Pandas) for robust data processing tools
+Bootstrap for responsive UI components
      
 
-Contact 
+## Contact 
 
 For questions, suggestions, or collaboration opportunities, please contact: 
 
@@ -145,7 +162,7 @@ For questions, suggestions, or collaboration opportunities, please contact:
      https://www.linkedin.com/in/nazmul-haque-nihal-07-55b87a248/ 
           
 
-Roadmap 
+## Roadmap
 
      Add more circuit models (Op-Amps, Filters, etc.)
      Implement additional analysis techniques (Wavelet analysis, etc.)
@@ -156,18 +173,3 @@ Roadmap
      Create a deployment guide for cloud platforms
      
 
-
-## Installation
-
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/FANAZ21-Engineering-Dashboard.git
-cd FANAZ21-Engineering-Dashboard
-
-Project Structure
-FANAZ21-Engineering-Dashboard/
-├── app.py                 # Main application file
-├── requirements.txt       # Python dependencies
-├── README.md             # This file
-└── assets/               # Images and other static assets (if any)
