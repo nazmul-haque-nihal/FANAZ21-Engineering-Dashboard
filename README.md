@@ -84,9 +84,9 @@ Supported Upload Formats
 Data can be entered manually using comma-separated or tab-delimited format: 
  
  
- 1
- 2
- 3
+ 1,
+ 2,
+ 3,
  1.0, 2.5, 3.7
  2.1, 3.2, 4.8
  3.2, 4.1, 5.9
